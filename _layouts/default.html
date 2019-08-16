@@ -24,12 +24,12 @@
       <div id="banner">
         <span id="logo"></span>
 
-        
+
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
             <ul>
-              <li><a href="https://github.com/potigol/Potigol/releases/latest" class="button">ZIP</a></li>
+              <li><a href="https://github.com/potigol/Potigol/releases/latest" class="button">Windows | Linux</a></li>
             </ul>
           </div>
         {% endif %}
@@ -41,11 +41,12 @@
       </nav>
       <section>
         {{ content }}
+        Introdução<br>Primeiros passos<br>Números e Textos
 
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>Autor: <a href="github.com/lrlucena">Leonardo Reis Lucena</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
